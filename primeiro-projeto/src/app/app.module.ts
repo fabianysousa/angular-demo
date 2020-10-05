@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { CursosModule } from './cursos/cursos.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     CursosModule
   ],
   providers: [],
